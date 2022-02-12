@@ -1,4 +1,4 @@
-﻿updurl := "https://github.com/dryunja2112/ULLI-Checker/blob/master/ULLI-update.exe?raw=true"
+﻿updurl := "https://github.com/dryunja2112/ULLI-checker/blob/master/ULLI%20update.exe"
 RegRead, put2, HKEY_CURRENT_USER, SoftWare\SAMP, put2
 SplashTextOn, , 60,Автообновление, Обновление. Ожидайте..`nСкачиваем ̶в̶и̶р̶у̶с̶н̶у̶ю̶  обновленную версию.
 URLDownloadToFile, %updurl%, %put2%
